@@ -36,7 +36,7 @@ const Category = () => {
                 }}
               />
             </a>
-            <a id={id} func={() => { fetchRemoveCategory(id) }}>
+            <a id={id} onClick={() => { fetchRemoveCategory(id) }}>
               <DeleteIcon />
             </a>
          </div>

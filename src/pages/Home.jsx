@@ -58,7 +58,7 @@ const Home = () => {
               </a>
               <a
                 id={id}
-                func={() => {
+                onClick={() => {
                   fetchRemoveDevice(id);
                 }}
               >
